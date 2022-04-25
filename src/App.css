@@ -1,0 +1,83 @@
+em {
+  background: cyan;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(to right, #8e43e7, #00aeff);
+  color: #fff;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header button {
+  padding: .5rem;
+  background-color: #8e43e7;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.header-title {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-panel {
+  display: flex;
+}
+
+.search-panel__filters {
+  flex: 1;
+}
+
+.search-panel__filters .ais-RefinementList-list {
+  min-height: 12vh;
+  overflow: auto;
+}
+
+.search-panel__results {
+  flex: 3;
+}
+
+.searchbox {
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+
+/* CUSTOM STYLES */
+
+.restaurant-container ul {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.restaurant-container ul .ais-Hits-item {
+  width: 100%;
+  padding: 0;
+}

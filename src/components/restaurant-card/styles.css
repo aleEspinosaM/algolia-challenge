@@ -1,0 +1,33 @@
+.restaurant-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.restaurant-container .content {
+  margin: 1rem 0;
+}
+
+.restaurant-container .rating {
+  display: flex;
+  margin-top: .5rem;
+  gap: 1rem;
+}
+
+.restaurant-container .info {
+  margin-top: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .80rem;
+}
+
+.restaurant-container .delete button {
+  padding: 1rem;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
