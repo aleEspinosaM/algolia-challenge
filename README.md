@@ -19,3 +19,10 @@ yarn start
 ```
 
 Open http://localhost:3000 to see your app.
+
+### improvments
+ - use scss or emotion or any other package to handle styles
+ - add simple tests to components
+ - add storybook for components used in multiples like Button or restaurant card
+ - add full form to handle all the values we need
+ - add error handling inside our form

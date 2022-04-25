@@ -40,6 +40,7 @@ function App({ searchClient }) {
           searchClient={searchClient}
           onSearchStateChange={() => setRefresh(prev => !prev)}
           indexName="new-index-1650889963"
+          // TODO: do some research in why this sometimes fetch the values and why sometimes does not
           refresh={refresh}
         >
           <div className="search-panel">
